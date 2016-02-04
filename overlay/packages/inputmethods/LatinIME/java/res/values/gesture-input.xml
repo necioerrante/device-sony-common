@@ -18,5 +18,6 @@
 */
 -->
 <resources>
+    <add-resource type="bool" name="config_gesture_input_enabled_by_build_config">true</add-resource>    
     <bool name="config_gesture_input_enabled_by_build_config">true</bool>
 </resources>
