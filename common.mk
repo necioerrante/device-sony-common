@@ -165,9 +165,9 @@ PRODUCT_PACKAGES += \
     fs_config_files
 
 # APN list
-PRODUCT_COPY_FILES += \
-    device/sample/etc/old-apns-conf.xml:system/etc/old-apns-conf.xml \
-    device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.xml
+#PRODUCT_COPY_FILES += \
+#    device/sample/etc/old-apns-conf.xml:system/etc/old-apns-conf.xml \
+#    device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.xml
 
 # Limit dex2oat threads to improve thermals
 PRODUCT_PROPERTY_OVERRIDES += \
