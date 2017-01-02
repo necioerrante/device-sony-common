@@ -89,3 +89,6 @@ BUILD_KERNEL := true
 
 # SELinux
 include device/sony/sepolicy/sepolicy.mk
+
+# TWRP
+include device/sony/common/twrp.mk
